@@ -161,8 +161,8 @@ export default function ShopHome() {
           ))}
         </div>
         <div className="mt-4 flex items-center justify-between gap-3">
-          <p className="text-sm text-stone-500">{list.length} produtos</p>
-          <Select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="!h-9 w-auto text-xs">
+          <p className="whitespace-nowrap text-sm text-stone-500">{list.length} produtos</p>
+          <Select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="!h-9 !w-auto text-xs">
             <option value="destaques">Destaques</option>
             <option value="menor">Menor preço</option>
             <option value="maior">Maior preço</option>

@@ -105,7 +105,7 @@ export function OrderDrawer({ order, onClose }: { order: Order | null; onClose: 
           {order.notes && <Info label="Observações" value={order.notes} className="col-span-2" />}
         </div>
         {order.customer.phone && (
-          <a href={waLink(order.customer.phone, `Olá ${order.customer.name.split(' ')[0]}! Sobre o seu pedido #${order.number}…`)} target="_blank" rel="noreferrer">
+          <a className="block" href={waLink(order.customer.phone, `Olá ${order.customer.name.split(' ')[0]}! Sobre o seu pedido #${order.number}…`)} target="_blank" rel="noreferrer">
             <Button variant="whatsapp" size="sm" className="w-full">
               <WhatsIcon /> Conversar com o cliente · {fmtPhone(order.customer.phone)}
             </Button>

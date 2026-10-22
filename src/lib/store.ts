@@ -229,7 +229,7 @@ export const useStore = create<State>()(
 
       resetDemo: () => set({ ...buildSeed() }),
     }),
-    { name: 'brasa-demo', version: 1 },
+    { name: 'smoke-empire-demo', version: 1 },
   ),
 )
 
@@ -271,6 +271,6 @@ export const useCart = create<CartState>()(
       clear: () => set({ lines: [] }),
       setOpen: (open) => set({ open }),
     }),
-    { name: 'brasa-cart', partialize: (s) => ({ lines: s.lines }) },
+    { name: 'smoke-empire-cart', partialize: (s) => ({ lines: s.lines }) },
   ),
 )

@@ -2,7 +2,7 @@ import { Flame, ShieldCheck } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from '../components/ui'
 
-const KEY = 'brasa-age-ok'
+const KEY = 'smoke-empire-age-ok'
 
 const readOk = () => {
   try {

@@ -1,4 +1,4 @@
-# Brasa Tabacaria — protótipo (front-end)
+# Smoke Empire — protótipo (front-end)
 
 Loja + painel de gestão para tabacaria. **Só front-end**: os dados ficam no `localStorage` do navegador, então um pedido feito na loja aparece na hora no painel. Serve para demonstrar o produto antes de montar o backend.
 
